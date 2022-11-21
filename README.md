@@ -5,8 +5,8 @@ This is a simple tokenized ballot system. The system is composed of two contract
 The order of scripts to run:
 
 - DeployToken.ts (deploys the token) +
-- DistributeToken.ts (mints and distributes the token to the voters) +
-- Delegate.ts (delegates votes to a voter or to oneself) +
-- DeployBallot.ts (deploys the ballot) +
-- Vote.ts (votes for a candidate proposal) +
+- DistributeToken.ts (mints and distributes the token to the voters)
+- Delegate.ts (delegates votes to a voter or to oneself)
+- DeployBallot.ts (deploys the ballot)
+- Vote.ts (votes for a candidate proposal)
 - FinalizeBallot.ts (finalizes the ballot)
